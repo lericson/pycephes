@@ -21,5 +21,6 @@ setup(
         "scipy",
     ],
     cffi_modules=["src/_cffi_src/build_hyper.py:ffi",
-                  "src/_cffi_src/build_ndtri.py:ffi"],
+                  "src/_cffi_src/build_ndtri.py:ffi",
+                  "src/_cffi_src/build_igam.py:ffi"],
 )
